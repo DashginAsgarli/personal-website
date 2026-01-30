@@ -1,0 +1,25 @@
+{
+  "Programming": [
+    { "name": "HTML", "icon": "SiHtml5", "color": "#E34F26" },
+    { "name": "CSS", "icon": "SiCss3", "color": "#1572B6" },
+    { "name": "JavaScript", "icon": "SiJavascript", "color": "#F7DF1E" },
+    { "name": "Python", "icon": "SiPython", "color": "#3776AB" }
+  ],
+  "Frameworks / Libraries": [
+    { "name": "React JS", "icon": "SiReact", "color": "#61DAFB" },
+    { "name": "Node.js", "icon": "SiNodedotjs", "color": "#339933" },
+    { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "#06B6D4" },
+    { "name": "Bootstrap", "icon": "SiBootstrap", "color": "#7952B3" }
+  ],
+  "Databases & Cloud": [
+    { "name": "SQL", "icon": "SiPostgresql", "color": "#4169E1" },
+    { "name": "Vercel", "icon": "SiVercel", "color": "#FFFFFF" },
+    { "name": "Netlify", "icon": "SiNetlify", "color": "#00C7B7" },
+    { "name": "REST API", "icon": "SiInsomnia", "color": "#4000BF" }
+  ],
+  "Tools": [
+    { "name": "Git", "icon": "SiGit", "color": "#F05032" },
+    { "name": "GitHub", "icon": "SiGithub", "color": "#FFFFFF" },
+    { "name": "Figma", "icon": "SiFigma", "color": "#F24E1E" }
+  ]
+}
