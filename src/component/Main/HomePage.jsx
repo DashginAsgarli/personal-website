@@ -59,7 +59,7 @@ function HomePage() {
                 <div className="relative w-[48vw] h-[50vw] lg:w-[29vw] lg:h-[33vw] max-w-[450px] max-h-[450px]">
                     <div className="absolute inset-0 border-2 border-yellow-500/20 rounded-[40px] animate-float"></div>
 
-                    <div className="w-full h-full bg-[#111] rounded-[30px] overflow-hidden border border-white/10 shadow-2xl relative group">
+                    <div className="cursor-pointer w-full h-full bg-[#111] rounded-[30px] overflow-hidden border border-white/10 shadow-2xl relative group">
                         <img
                             src={ImgMe}
                             alt="Dashgin Asgarli - Full Stack Web Developer"
