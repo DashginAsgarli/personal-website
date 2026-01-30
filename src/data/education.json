@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Azerbaijan State Oil and Industry University",
+        "degree": "Bachelor of Science in Computer Engineering",
+        "date": "2023 - 2027",
+        "desc": "Admitted to the Faculty of Computer Engineering with a competitive score of 450 points. Developing deep theoretical knowledge in algorithms and core engineering principles."
+    },
+    {
+        "title": "CodeForFuture | Algorithmics",
+        "degree": "Frontend Developer",
+        "date": "Oct 2025 - Jan 2026",
+        "desc": "Successfully completed the intensive program with a perfect score of 100/100. Mastered building modern web applications using HTML, CSS, JavaScript, and React, while integrating Node.js, MySQL, and Git workflows."
+    },
+    {
+        "title": "SABAH Groups | ASOIU",
+        "degree": "Computer Engineering",
+        "date": "2024 - 2027",
+        "desc": "Selected for the prestigious SABAH groups program. Currently maintaining high academic performance with a GPA of 80+/100 in the field of Computer Engineering."
+    }
+]
