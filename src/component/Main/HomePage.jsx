@@ -18,7 +18,7 @@ function HomePage() {
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-400 opacity-75"></span>
                         <span className="relative inline-flex rounded-full h-2 w-2 bg-yellow-500"></span>
                     </span>
-                    <span className="text-yellow-500 text-[0.7rem] font-bold tracking-[0.2em] uppercase">
+                    <span className="text-yellow-500 text-[0.6rem] font-bold tracking-[0.2em] uppercase">
                         Available for New Challenges
                     </span>
                 </div>
@@ -56,7 +56,7 @@ function HomePage() {
                 </div>
             </div>
             <div className="relative z-10 order-1 lg:order-2">
-                <div className="relative w-[50vw] h-[50vw] lg:w-[29vw] lg:h-[35vw] max-w-[450px] max-h-[450px]">
+                <div className="relative w-[48vw] h-[50vw] lg:w-[29vw] lg:h-[33vw] max-w-[450px] max-h-[450px]">
                     <div className="absolute inset-0 border-2 border-yellow-500/20 rounded-[40px] animate-float"></div>
 
                     <div className="w-full h-full bg-[#111] rounded-[30px] overflow-hidden border border-white/10 shadow-2xl relative group">
