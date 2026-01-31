@@ -4,6 +4,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -14,31 +15,61 @@
   animation: fade-up 0.8s ease-out forwards;
 }
 
-.delay-1 { 
-  animation-delay: 0.1s; 
-  opacity: 0; 
+.delay-1 {
+  animation-delay: 0.1s;
+  opacity: 0;
 }
 
-.delay-2 { 
-  animation-delay: 0.3s; 
-  opacity: 0; 
+.delay-2 {
+  animation-delay: 0.3s;
+  opacity: 0;
 }
 
-.delay-3 { 
-  animation-delay: 0.5s; 
-  opacity: 0; 
+.delay-3 {
+  animation-delay: 0.5s;
+  opacity: 0;
 }
 
 @keyframes float {
-    0%, 100% {
-        transform: rotate(-5deg) translateY(0);
-    }
-    50% {
-        transform: rotate(5deg) translateY(-10px);
-    }
+
+  0%,
+  100% {
+    transform: rotate(-5deg) translateY(0);
+  }
+
+  50% {
+    transform: rotate(5deg) translateY(-10px);
+  }
 }
 
 .animate-float {
   animation: float 6s ease-in-out infinite;
 }
 
+/* projects */
+.reveal-card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.reveal-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-card:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.reveal-card:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.reveal-card:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+.reveal-card:nth-child(4) {
+  transition-delay: 0.4s;
+}

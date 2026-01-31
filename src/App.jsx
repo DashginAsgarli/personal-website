@@ -5,10 +5,12 @@ import Portfolio from './component/Main/Skills.jsx'
 import Education from './component/Main/Education.jsx'
 import Certificates from './component/Main/Certificates.jsx'
 import Projects from './component/Main/Projects.jsx'
+import Header from './component/Header/nav.jsx'
 function App() {
 
   return (
     <>
+    <Header />
     <HomePage />
     <Education />
     <Portfolio />
