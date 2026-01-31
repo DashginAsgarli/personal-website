@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Growth Portal",
+        "cat": "React / Personal Development",
+        "iconName": "Rocket",
+        "size": "md:col-span-2",
+        "glow": "group-hover:shadow-[0_0_50px_-12px_rgba(59,130,246,0.5)]",
+        "iconColor": "text-blue-500",
+        "link": "https://next-you-pro.vercel.app/"
+    },
+    {
+        "id": 2,
+        "title": "Focus Task",
+        "cat": "JS / Productivity",
+        "iconName": "CheckCircle2",
+        "size": "md:col-span-1",
+        "glow": "group-hover:shadow-[0_0_50px_-12px_rgba(34,197,94,0.5)]",
+        "iconColor": "text-green-500",
+        "link": "#"
+    },
+    {
+        "id": 3,
+        "title": "Currency Plus",
+        "cat": "React / Finance API",
+        "iconName": "Coins",
+        "size": "md:col-span-1",
+        "glow": "group-hover:shadow-[0_0_50px_-12px_rgba(168,85,247,0.5)]",
+        "iconColor": "text-purple-500",
+        "link": "#"
+    },
+    {
+        "id": 4,
+        "title": "Modern Shop",
+        "cat": "Next.js / E-Commerce",
+        "iconName": "ShoppingCart",
+        "size": "md:col-span-2",
+        "glow": "group-hover:shadow-[0_0_50px_-12px_rgba(249,115,22,0.5)]",
+        "iconColor": "text-orange-500",
+        "link": "#"
+    }
+]

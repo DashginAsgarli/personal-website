@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Developer",
+        "issuer": "Algorithmics / CodeForFuture",
+        "imageName": "cffImg"
+    },
+    {
+        "id": 2,
+        "title": "Introduction to Front-End Development",
+        "issuer": "Meta",
+        "imageName": "frontImg"
+    },
+    {
+        "id": 3,
+        "title": "HTML and CSS in depth",
+        "issuer": "Meta",
+        "imageName": "htmlCssImg"
+    },
+    {
+        "id": 4,
+        "title": "React",
+        "issuer": "coursera",
+        "imageName": "reactImg"
+    },
+    {
+        "id": 5,
+        "title": "Version Control",
+        "issuer": "Meta",
+        "imageName": "gitImg"
+    },
+    {
+        "id": 6,
+        "title": "HTML, CSS, and Javascript for Web Developers",
+        "issuer": "Johns Hopkins University",
+        "imageName": "jhImg"
+    }
+]
