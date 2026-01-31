@@ -11,7 +11,7 @@ function HomePage() {
     ];
 
     return (
-        <section id="home" className="relative flex flex-col lg:flex-row items-center justify-between px-[7%] md:px-[10%] py-[10vh] bg-[#050505] min-h-screen overflow-hidden">
+        <section id="home" className="relative flex flex-col lg:flex-row items-center justify-between px-[7%] md:px-[10%] pt-[20vh] py-[10vh] bg-[#050505] min-h-screen overflow-hidden">
             <div className="w-full lg:w-[60%] z-10 text-center lg:text-left order-2 lg:order-1 mt-[5vh] lg:mt-0 flex flex-col items-center lg:items-start">
                 <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 border border-yellow-500/20 rounded-full bg-yellow-500/5 backdrop-blur-sm">
                     <span className="relative flex h-2 w-2">
