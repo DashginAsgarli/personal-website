@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.css';
 import { FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import ImgMe from '../../Img/img2.jpg';
+import ImgMe from '../../img/img2.jpg';
 
 function HomePage() {
     const socialLinks = [
