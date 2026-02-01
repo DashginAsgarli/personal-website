@@ -1,6 +1,6 @@
 # 💼 Personal Portfolio Website
 
-This project is my personal portfolio website, built to showcase my skills, projects, and background in a clean and professional way. The website is developed using React and Tailwind CSS and is fully responsive across all devices.
+This project is my personal portfolio website, built to showcase my skills, projects, and background in a clean and professional way. The website is developed using ***React*** and ***Tailwind CSS*** and is fully responsive across all devices.
 
 ---
 ## ✨ Features
@@ -21,10 +21,10 @@ To run this project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/portfolio.git
+git clone https://github.com/DashginAsgarli/personal-website.git
 
 # Navigate to the project directory
-cd portfolio
+cd personal-website
 
 # Install dependencies
 npm install
@@ -33,3 +33,9 @@ npm install
 npm run dev
 ```
 ---
+
+## 📫 Contact
+
+If you want to get in touch, feel free to reach out via the Contact section on the website.
+
+⭐ If you like this project, don’t forget to give it a star!
