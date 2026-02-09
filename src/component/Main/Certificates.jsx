@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { FaExternalLinkAlt, FaAward, FaTimes } from 'react-icons/fa';
 import certData from '../../data/certificates.json';
-import cffImg from '../../img/certficatesImg/cff.jpg';
-import frontImg from '../../img/certficatesImg/front.jpg';
-import gitImg from '../../img/certficatesImg/git.jpg';
+import cff from '../../img/certficatesImg/cff.jpg';
+import front from '../../img/certficatesImg/front.jpg';
+import gitCert from '../../img/certficatesImg/git.jpg';
 import htmlCssImg from '../../img/certficatesImg/html_css.jpg';
 import jhImg from '../../img/certficatesImg/jh.jpg';
 import reactImg from '../../img/certficatesImg/react.jpg';
 
-const imageMap = { frontImg, cffImg, htmlCssImg, reactImg, gitImg, jhImg };
+const imageMap = { front, cff, htmlCssImg, reactImg, gitCert, jhImg };
 
 function Certificates() {
     const [selectedImg, setSelectedImg] = useState(null);

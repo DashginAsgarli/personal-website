@@ -3,13 +3,13 @@
         "id": 1,
         "title": "Frontend Developer",
         "issuer": "Algorithmics / CodeForFuture",
-        "imageName": "cffImg"
+        "imageName": "cff"
     },
     {
         "id": 2,
         "title": "Introduction to Front-End Development",
         "issuer": "Meta",
-        "imageName": "frontImg"
+        "imageName": "front"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "id": 5,
         "title": "Version Control",
         "issuer": "Meta",
-        "imageName": "gitImg"
+        "imageName": "gitCert"
     },
     {
         "id": 6,
