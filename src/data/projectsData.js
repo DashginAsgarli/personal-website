@@ -3,7 +3,7 @@ import todo from '../Img/project/todo.jpeg';
 import portfilo from '../Img/project/portfilo.jpeg';
 import valyuta from '../Img/project/valyuta.jpeg';
 import flagQuiz from '../Img/project/flagQuiz.png';
-
+import tictactoe from '../Img/project/tictactoe.jpg'
 
 const projects = [
     {
@@ -49,6 +49,16 @@ const projects = [
     },
     {
         id: 5,
+        title: "Tic-Tac-Toe",
+        cat: "HTML / CSS / JavaScript",
+        image: tictactoe,
+        iconName: "Gamepad2",
+        glow: "group-hover:shadow-[0_0_50px_-12px_rgba(6,182,212,0.5)]",
+        iconColor: "text-cyan-500",
+        link: "https://astounding-quokka-87abc8.netlify.app/"
+    },
+    {
+        id: 6,
         title: "To-Do List",
         cat: "HTML / CSS / JavaScript",
         image: todo,
@@ -56,7 +66,8 @@ const projects = [
         glow: "group-hover:shadow-[0_0_50px_-12px_rgba(34,197,94,0.5)]",
         iconColor: "text-green-500",
         link: "https://dashginasgarli.github.io/To-do-List/"
-    }
+    },
+
 ];
 
 export default projects;
