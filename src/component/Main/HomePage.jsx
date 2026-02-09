@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.css';
 import { FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import ImgMe from '../../img/img2.jpg';
+import imgMe from '../../Img/img2.jpg';
 
 function HomePage() {
     const socialLinks = [
@@ -61,7 +61,7 @@ function HomePage() {
 
                     <div className="cursor-pointer w-full h-full bg-[#111] rounded-[30px] overflow-hidden border border-white/10 shadow-2xl relative group">
                         <img
-                            src={ImgMe}
+                            src={imgMe}
                             alt="Dashgin Asgarli - Full Stack Web Developer"
                             className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105 group-hover:rotate-2 grayscale-[40%] group-hover:grayscale-0"
                         />
