@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { FaExternalLinkAlt, FaAward, FaTimes } from 'react-icons/fa';
 import certData from '../../data/certificates.json';
 import cff from '../../img/certficatesImg/cff.jpg';
-import front from '../../img/certficatesImg/front.jpg';
-import gitCert from '../../img/certficatesImg/git.jpg';
-import htmlCssImg from '../../img/certficatesImg/html_css.jpg';
+import front from '../../img/certificatesImg/front.jpg';
+import gitCert from '../../img/certificatesImg/git.jpg';
+import htmlCssImg from '../../img/certificatesImg/html_css.jpg';
 import jhImg from '../../img/certficatesImg/jh.jpg';
 import reactImg from '../../img/certficatesImg/react.jpg';
 
