@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { FaExternalLinkAlt, FaAward, FaTimes } from 'react-icons/fa';
 import certData from '../../data/certificates.json';
-import cff from '../../img/certficatesImg/cff.jpg';
+import cff from '../../img/certificatesImg/cff.jpg';
 import front from '../../img/certificatesImg/front.jpg';
 import gitCert from '../../img/certificatesImg/git.jpg';
 import htmlCssImg from '../../img/certificatesImg/html_css.jpg';
-import jhImg from '../../img/certficatesImg/jh.jpg';
-import reactImg from '../../img/certficatesImg/react.jpg';
+import jhImg from '../../img/certificatesImg/jh.jpg';
+import reactImg from '../../img/certificatesImg/react.jpg';
 
 const imageMap = { front, cff, htmlCssImg, reactImg, gitCert, jhImg };
 
