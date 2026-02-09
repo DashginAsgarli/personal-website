@@ -50,7 +50,7 @@ const projects = [
     {
         id: 5,
         title: "Tic-Tac-Toe",
-        cat: "HTML / CSS / JavaScript",
+        cat: "React / Tailwind CSS",
         image: tictactoe,
         iconName: "Gamepad2",
         glow: "group-hover:shadow-[0_0_50px_-12px_rgba(6,182,212,0.5)]",
