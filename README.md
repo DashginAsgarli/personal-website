@@ -12,7 +12,7 @@ This project is my personal portfolio website, built to showcase my skills, proj
 
 ---
 ## 🌐 Demo
-🔗 [Go to Personal Portfolio Website](https://inspiring-lamington-c4a8aa.netlify.app/)
+🔗 [Go to Personal Portfolio Website](https://silly-halva-cf1814.netlify.app/)
 
 ---
 ## 📦 Installation
@@ -39,4 +39,5 @@ npm run dev
 If you want to get in touch, feel free to reach out via the Contact section on the website.
 
 ⭐ If you like this project, don’t forget to give it a star!
+
 
