@@ -12,8 +12,8 @@ function Skills() {
 
       <div className="max-w-[1200px] mx-auto relative z-10">
         
-        <div className="flex flex-col items-center mb-10 md:mb-16 text-center">
-          <h2 className=" text-white text-3xl md:text-6xl font-black tracking-tighter mb-6 md:mb-10 uppercase">
+        <div className="flex flex-col  mb-10 md:mb-16">
+          <h2 className=" text-white text-2xl md:text-5xl font-black tracking-tighter mb-6 md:mb-10 uppercase">
             Technical  <span className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-600 bg-clip-text text-transparent italic">skills.</span>
           </h2>
 

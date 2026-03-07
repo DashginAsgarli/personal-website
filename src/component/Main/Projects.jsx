@@ -35,7 +35,7 @@ function Projects() {
         <section id="portfolio" className="bg-[#050505] py-10 px-5 md:py-10 md:px-20 lg:py-20 lg:px-32  overflow-hidden">
             <div>
                 <div className="mb-12 flex justify-between items-end">
-                    <h2 className="text-white text-4xl md:text-6xl font-black uppercase italic tracking-tighter">
+                    <h2 className="text-white text-2xl md:text-5xl  font-black uppercase italic tracking-tighter">
                         MY <span className="text-yellow-500">PROJECTS.</span>
                     </h2>
                 </div>

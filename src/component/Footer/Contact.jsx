@@ -18,7 +18,7 @@ function Contact() {
 
                     <div className="w-full lg:w-1/2 space-y-6 md:space-y-8 text-center lg:text-left">
                         <div>
-                            <h2 className="text-white text-4xl md:text-6xl lg:text-7xl font-black leading-[1.1] tracking-tighter">
+                            <h2 className="text-white text-3xl md:text-6xl font-black leading-[1.1] tracking-tighter">
                                 READY TO <br />
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-700">COLLABORATE?</span>
                             </h2>
