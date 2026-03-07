@@ -73,3 +73,24 @@
 .reveal-card:nth-child(4) {
   transition-delay: 0.4s;
 }
+
+.swiper-pagination-bullet {
+    background: #555 !important;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: #eab308 !important; 
+    width: 25px !important;
+    border-radius: 10px !important;
+    transition: all 0.3s ease;
+}
+
+.mySwiper {
+    padding-bottom: 50px !important;
+}
+
+.reveal-card {
+    will-change: background;
+    transition: background 0.1s ease-out;
+}

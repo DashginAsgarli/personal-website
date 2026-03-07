@@ -29,12 +29,12 @@ const projects = [
     {
         id: 3,
         title: "Currency Converter",
-        cat: "HTML / Tailwind CSS / JavaScript",
+        cat: "HTML / Tailwind CSS / JS",
         image: valyuta,
         iconName: "CircleDollarSign",
         glow: "group-hover:shadow-[0_0_50px_-12px_rgba(168,85,247,0.5)]",
         iconColor: "text-purple-500",
-        link: "https://dashginasgarli.github.io/Currency-converter-layout/"
+        link: "https://dashginasgarli.github.io/currency-converter-layout/"
     }
     ,
     {
@@ -55,7 +55,7 @@ const projects = [
         iconName: "Gamepad2",
         glow: "group-hover:shadow-[0_0_50px_-12px_rgba(6,182,212,0.5)]",
         iconColor: "text-cyan-500",
-        link: "https://astounding-quokka-87abc8.netlify.app/"
+        link: "https://dashginasgarli.github.io/tic-tac-toe/"
     },
     {
         id: 6,
@@ -65,7 +65,7 @@ const projects = [
         iconName: "ClipboardCheck",
         glow: "group-hover:shadow-[0_0_50px_-12px_rgba(34,197,94,0.5)]",
         iconColor: "text-green-500",
-        link: "https://dashginasgarli.github.io/To-do-List/"
+        link: "https://dashginasgarli.github.io/todo-list/"
     },
 
 ];
