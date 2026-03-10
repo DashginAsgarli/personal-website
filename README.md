@@ -57,8 +57,8 @@ npm run dev
 
 [![Email](https://img.shields.io/badge/Gmail-dashqinasgarli%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:dashqinasgarli@gmail.com)
 &nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-DashginAsgarli-111111?style=flat-square&logo=github&logoColor=white)](https://github.com/DashginAsgarli)
 
 </div>
+
 
 
