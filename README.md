@@ -1,10 +1,9 @@
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=160&text=Personal%20Portfolio&fontSize=48&fontColor=ffffff&fontAlignY=55&desc=Dashgin%20Asgarli%20%E2%80%94%20Frontend%20Developer&descAlignY=78&descSize=18" width="100%"/>
+# Personal Portfolio
 
-<div align="center">
+<div>
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-ffffff?style=for-the-badge&logoColor=black&color=000000)](https://silly-halva-cf1814.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-ffffff?style=for-the-badge&logo=github&logoColor=white&color=000000)](https://github.com/DashginAsgarli/personal-website)
-[![License](https://img.shields.io/badge/License-MIT-ffffff?style=for-the-badge&color=000000)](LICENSE)
 
 </div>
 
@@ -16,13 +15,14 @@ A personal portfolio website built to present my skills, projects, and backgroun
 
 ---
 
-## Features
-
-- 📱 Fully responsive design
-- 🎨 Modern and minimal UI
-- 🧩 Component-based React architecture
-- 🧼 Clean and readable codebase
-- 📂 Sections: About · Projects · Skills · Contact
+> [!NOTE]
+> <ul>
+>  <li>Fully responsive design</li>
+>  <li>Modern and minimal UI</li>
+>  <li>Component-based React architecture</li>
+>  <li>Clean and readable codebase</li>
+>  <li>Sections: About · Projects · Skills · Contact</li>
+></ul>
 
 ---
 
@@ -51,11 +51,9 @@ npm install
 npm run dev
 ```
 
----
-
 ## Contact
 
-<div align="center">
+<div>
 
 [![Email](https://img.shields.io/badge/Gmail-dashqinasgarli%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:dashqinasgarli@gmail.com)
 &nbsp;
@@ -63,12 +61,4 @@ npm run dev
 
 </div>
 
----
 
-<div align="center">
-  <sub>⭐ If you like this project, give it a star — it means a lot.</sub>
-  <br/>
-  <sub>Built by <a href="https://github.com/DashginAsgarli">Dashgin Asgarli</a></sub>
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=60" width="100%"/>
