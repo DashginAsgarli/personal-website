@@ -2,7 +2,7 @@
 
 <div>
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-ffffff?style=for-the-badge&logoColor=black&color=000000)](https://silly-halva-cf1814.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-ffffff?style=for-the-badge&logoColor=black&color=000000)](https://jovial-unicorn-4a4245.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-ffffff?style=for-the-badge&logo=github&logoColor=white&color=000000)](https://github.com/DashginAsgarli/personal-website)
 
 </div>
