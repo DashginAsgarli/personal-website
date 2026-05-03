@@ -12,16 +12,13 @@ function Projects() {
     const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
     const [hoveredCard, setHoveredCard] = useState(null);
 
-    const handleMouseMove = (e, id) => {
+    function handleMouseMove(e, id) {
         const rect = e.currentTarget.getBoundingClientRect();
-        setMousePos({
-            x: e.clientX - rect.left,
-            y: e.clientY - rect.top,
-        });
+        setMousePos({ x: e.clientX - rect.left, y: e.clientY - rect.top, });
         setHoveredCard(id);
     };
 
-    const getHexColor = (tailwindClass) => {
+    function getHexColor(tailwindClass) {
         const colors = {
             'text-blue-500': '#3b82f6',
             'text-green-500': '#22c55e',
@@ -32,25 +29,25 @@ function Projects() {
     };
 
     return (
-        <section id="portfolio" className="bg-[#050505] py-10 px-5 md:py-10 md:px-20 lg:py-20 lg:px-32  overflow-hidden">
+        <section id="portfolio" className="bg-[#050505] py-10  md:py-10 lg:py-20 px-6 md:px-16 lg:px-20 overflow-hidden">
             <div>
                 <div className="mb-12 flex justify-between items-end">
-                    <h2 className="text-white text-2xl md:text-5xl  font-black uppercase italic tracking-tighter">
+                    <h2 className="text-white text-2xl md:text-5xl  font-black uppercase  tracking-tighter">
                         MY <span className="text-yellow-500">PROJECTS.</span>
                     </h2>
                 </div>
 
-                <Swiper slidesPerView={1} spaceBetween={20} freeMode={true} autoplay={{ delay: 3000, disableOnInteraction: false }} pagination={{ clickable: true, dynamicBullets: true }} breakpoints={{ 640: { slidesPerView: 2, spaceBetween: 20 }, 1024: { slidesPerView: 2.5, spaceBetween: 30 }, }} modules={[Pagination, Autoplay, FreeMode]} className="mySwiper !pb-14">
+                <Swiper slidesPerView={1} spaceBetween={20} freeMode={true} autoplay={{ delay: 3000, disableOnInteraction: false }} pagination={{ clickable: true, dynamicBullets: true }} breakpoints={{ 640: { slidesPerView: 2, spaceBetween: 20 }, 1024: { slidesPerView: 2.5, spaceBetween: 30 }, }} modules={[Pagination, Autoplay, FreeMode]} className="mySwiper pb-14!">
                     {projects.map((item) => {
                         const IconComponent = Icons[item.iconName];
                         const currentHex = getHexColor(item.iconColor);
 
                         return (
                             <SwiperSlide key={item.id}>
-                                <a href={item.link} target="_blank" rel="noopener noreferrer" onMouseMove={(e) => handleMouseMove(e, item.id)} onMouseLeave={() => setHoveredCard(null)} className={`group relative block bg-[#0f0f0f] rounded-[1.5rem] overflow-hidden border border-white/10 transition-all duration-500 h-full ${item.glow}`} style={{ background: hoveredCard === item.id ? `radial-gradient(600px circle at ${mousePos.x}px ${mousePos.y}px, rgba(255,255,255,0.06), transparent 30%)` : '' }}>
-                                    <div className="relative h-[230px] overflow-hidden">
+                                <a href={item.link} target="_blank" rel="noopener noreferrer" onMouseMove={(e) => handleMouseMove(e, item.id)} onMouseLeave={() => setHoveredCard(null)} className={`group relative block bg-[#0f0f0f] rounded-2xl overflow-hidden border border-white/10 transition-all duration-500 h-full ${item.glow}`} style={{ background: hoveredCard === item.id ? `radial-gradient(600px circle at ${mousePos.x}px ${mousePos.y}px, rgba(255,255,255,0.06), transparent 30%)` : '' }}>
+                                    <div className="relative h-57.5 overflow-hidden">
                                         <img src={item.image} alt={item.title} className="w-full h-full object-cover grayscale-[0.5] group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" />
-                                        <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] to-transparent"></div>
+                                        <div className="absolute inset-0 bg-linear-to-t from-[#0f0f0f] to-transparent"></div>
                                     </div>
 
                                     <div className="p-6 md:p-8 relative">
@@ -76,10 +73,7 @@ function Projects() {
                                         </div>
                                     </div>
 
-                                    <div
-                                        className="absolute bottom-0 left-0 h-[3px] w-0 group-hover:w-full transition-all duration-700"
-                                        style={{ backgroundColor: currentHex, boxShadow: `0 0 20px ${currentHex}` }}
-                                    ></div>
+                                    <div className="absolute bottom-0 left-0 h-1 w-0 group-hover:w-full transition-all duration-700" style={{ backgroundColor: currentHex, boxShadow: `0 0 20px ${currentHex}` }}></div>
                                 </a>
                             </SwiperSlide>
                         );

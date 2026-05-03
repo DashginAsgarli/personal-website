@@ -3,27 +3,23 @@ import educationData from '../../data/education.json';
 
 function Education() {
   return (
-    <section id="education" className="bg-[#050505] py-12 md:py-20 px-[5%] md:px-[10%] border-t border-white/5 relative overflow-hidden">
+    <section id="education" className="bg-[#050505] py-12 md:py-20 px-6 md:px-16 lg:px-20 border-t border-white/5 relative overflow-hidden">
 
-      <div className="absolute top-1/2 left-0 w-[600px] h-[400px] bg-yellow-500/[0.01] blur-[150px] rounded-full pointer-events-none"></div>
+      <div className="absolute top-1/2 left-0 w-150 h-100 bg-yellow-500/1 blur-[150px] rounded-full pointer-events-none"></div>
 
-      <div className="max-w-[1200px] mx-auto relative z-10">
+      <div className="max-w-300 mx-auto relative z-10">
 
         <div className="relative">
-          <div className="absolute left-0 top-2 w-[1px] h-full bg-gradient-to-b from-yellow-500 via-white/10 to-transparent"></div>
+          <div className="absolute left-0 top-2 w-px h-full bg-linear-to-b from-yellow-500 via-white/10 to-transparent"></div>
 
-          <h2 className="text-white text-2xl md:text-5xl font-black mb-8 md:mb-14 uppercase tracking-tighter italic ml-6 md:ml-12">
-            My <span className="bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-600 bg-clip-text text-transparent">Journey.</span>
+          <h2 className="text-white text-2xl md:text-5xl font-black mb-8 md:mb-14 uppercase tracking-tighter ml-6 md:ml-12">
+            My <span className="bg-linear-to-r from-yellow-400 via-yellow-200 to-yellow-600 bg-clip-text text-transparent">Journey.</span>
           </h2>
 
           <div className="space-y-10 md:space-y-14">
             {educationData.map((edu, idx) => (
-              <div
-                key={idx}
-                className="relative ml-6 md:ml-12 group skill-card-reveal"
-                style={{ animationDelay: `${idx * 0.15}s` }}
-              >
-                <div className="absolute -left-[30px] md:-left-[55px] top-1.5 w-2.5 h-2.5 md:w-4 md:h-4 bg-[#050505] border-2 border-yellow-500 rounded-full group-hover:scale-125 transition-all duration-300 z-10 shadow-[0_0_10px_rgba(234,179,8,0.4)]"></div>
+              <div key={idx} className="relative ml-6 md:ml-12 group skill-card-reveal" style={{ animationDelay: `${idx * 0.15}s` }}>
+                <div className="absolute -left-7.5 md:-left-13.75 top-1.5 w-2.5 h-2.5 md:w-4 md:h-4 bg-[#050505] border-2 border-yellow-500 rounded-full group-hover:scale-125 transition-all duration-300 z-10 shadow-[0_0_10px_rgba(234,179,8,0.4)]"></div>
 
                 <span className="text-yellow-500 font-mono text-[9px] md:text-[11px] font-bold tracking-[0.2em] uppercase opacity-70">
                   {edu.date}
@@ -45,7 +41,7 @@ function Education() {
                   ))}
                 </p>
 
-                <div className="absolute -bottom-5 left-0 w-0 h-[1px] bg-white/5 group-hover:w-full transition-all duration-1000"></div>
+                <div className="absolute -bottom-5 left-0 w-0 h-px bg-white/5 group-hover:w-full transition-all duration-1000"></div>
               </div>
             ))}
           </div>

@@ -8,7 +8,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="bg-[#050505] py-[3vw] px-[8vw] border-t border-white/5">
+    <footer className="bg-[#050505] py-[3vw] px-6 md:px-16 lg:px-20 border-t border-white/5">
       <div className="max-w-[90vw] mx-auto flex flex-col md:flex-row justify-between items-center gap-[4vw]">
 
         <div className="text-[#EAB308] text-[6vw] md:text-[2.5vw] lg:text-[1.8vw] font-black tracking-tighter cursor-default">
@@ -19,13 +19,7 @@ function Footer() {
 
         <div className="flex gap-[5vw] md:gap-[3vw]">
           {socialLinks.map((social) => (
-            <a
-              key={social.name}
-              href={social.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-[1.5vw] md:gap-[0.8vw] text-gray-500 hover:text-white transition-all duration-300 group"
-            >
+            <a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-[1.5vw] md:gap-[0.8vw] text-gray-500 hover:text-white transition-all duration-300 group">
               <span className="text-[5vw] md:text-[1.5vw] group-hover:text-[#EAB308] transition-colors duration-300">
                 {social.icon}
               </span>
