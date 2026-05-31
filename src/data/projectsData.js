@@ -1,5 +1,5 @@
 import nextyou from '../Img/project/nextyou.jpg';
-import todo from '../Img/project/todo.jpeg';
+import taskFlow from '../Img/project/taskFlow.png';
 import portfilo from '../Img/project/portfilo.jpeg';
 import valyuta from '../Img/project/valyuta.jpeg';
 import flagQuiz from '../Img/project/flagQuiz.png';
@@ -27,7 +27,7 @@ const projects = [
         iconName: "Flag",
         glow: "group-hover:shadow-[0_0_50px_-12px_rgba(220,38,38,0.5)]",
         iconColor: "text-red-500",
-        link: "https://gleaming-pudding-920aba.netlify.app/"
+        link: "https://dashginasgarli.github.io/flag-quiz-app/"
     },
     {
         id: 3,
@@ -82,13 +82,13 @@ const projects = [
     },
     {
         id: 8,
-        title: "To-Do List",
-        cat: "HTML / CSS / JavaScript",
-        image: todo,
+        title: "TaskFlow",
+        cat: "React / Tailwind CSS",
+        image: taskFlow,
         iconName: "ClipboardCheck",
         glow: "group-hover:shadow-[0_0_50px_-12px_rgba(34,197,94,0.5)]",
         iconColor: "text-green-500",
-        link: "https://dashginasgarli.github.io/todo-list/"
+        link: "https://dashginasgarli.github.io/projectm-dashboard/"
     },
 
 ];
