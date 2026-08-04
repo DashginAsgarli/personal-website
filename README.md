@@ -1,28 +1,8 @@
 # Personal Portfolio
 
-<div>
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-ffffff?style=for-the-badge&logoColor=black&color=000000)](https://jovial-unicorn-4a4245.netlify.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-ffffff?style=for-the-badge&logo=github&logoColor=white&color=000000)](https://github.com/DashginAsgarli/personal-website)
-
-</div>
-
----
-
-## Overview
-
-A personal portfolio website built to present my skills, projects, and background in a clean and professional way. Developed with **React** and **Tailwind CSS** — fully responsive across all devices.
-
----
-
-> [!NOTE]
-> <ul>
->  <li>Fully responsive design</li>
->  <li>Modern and minimal UI</li>
->  <li>Component-based React architecture</li>
->  <li>Clean and readable codebase</li>
->  <li>Sections: About · Projects · Skills · Contact</li>
-></ul>
+My personal portfolio site, built with **React** and **Tailwind CSS**,
+fully responsive across all devices. It's organized into four sections -
+About, Projects, Skills, and Contact — each built as its own component.
 
 ---
 
@@ -51,14 +31,13 @@ npm install
 npm run dev
 ```
 
+
+---
+
 ## Contact
 
 <div>
 
 [![Email](https://img.shields.io/badge/Gmail-dashqinasgarli%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:dashqinasgarli@gmail.com)
-&nbsp;
 
 </div>
-
-
-
