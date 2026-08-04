@@ -1,21 +1,30 @@
 @import "tailwindcss";
 
 
+@keyframes border-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-border-spin {
+  animation: border-spin 3.5s linear infinite;
+}
+
+
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #050505; 
+  background: #000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #EAB308; 
-  border-radius: 100px; 
-  border: 3px solid #050505; 
+  background: #111;
+  border-radius: 20px;
 }
 
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #EAB308 #050505;
+::-webkit-scrollbar-thumb:hover {
+  background: #222;
 }

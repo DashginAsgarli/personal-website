@@ -1,0 +1,47 @@
+export const skillCategories = [
+  {
+    id: "frontend",
+    label: "Web Development",
+    color: "#3B82F6",
+    skills: [
+      { name: "HTML5", icon: "SiHtml5", color: "#E34F26" },
+      { name: "CSS3", icon: "SiCss3", color: "#1572B6" },
+      { name: "JavaScript", icon: "SiJavascript", color: "#F7DF1E" },
+      { name: "TypeScript", icon: "SiTypescript", color: "#3178C6" },
+      { name: "React", icon: "SiReact", color: "#61DAFB" },
+      { name: "Tailwind", icon: "SiTailwindcss", color: "#06B6D4" },
+      { name: "Bootstrap", icon: "SiBootstrap", color: "#7952B3" },
+    ],
+  },
+  {
+    id: "datascience",
+    label: "Data Science",
+    color: "#22C55E",
+    skills: [
+      { name: "Python", icon: "SiPython", color: "#3776AB" },
+      { name: "PostgreSQL", icon: "SiPostgresql", color: "#4169E1" },
+      { name: "NumPy", icon: "SiNumpy", color: "#013243" },
+      { name: "Pandas", icon: "SiPandas", color: "#150458" },
+      { name: "Matplotlib", icon: "SiPlotly", color: "#3F4F75" },
+      { name: "Seaborn", icon: "SiSeaborn", color: "#3776AB" },
+      { name: "Scikit-learn", icon: "SiScikitlearn", color: "#F7931E" },
+      { name: "Machine Learning", icon: "SiScikitlearn", color: "#22C55E" },
+      { name: "Deep Learning", icon: "SiTensorflow", color: "#FF6F00" },
+      { name: "TensorFlow", icon: "SiTensorflow", color: "#FF6F00" },
+      { name: "PyTorch", icon: "SiPytorch", color: "#EE4C2C" },
+    ],
+  },
+  {
+    id: "tools",
+    label: "Tools",
+    color: "#A855F7",
+    skills: [
+      { name: "Git", icon: "SiGit", color: "#F05032" },
+      { name: "GitHub", icon: "SiGithub", color: "#ffffff" },
+      { name: "Jupyter", icon: "SiJupyter", color: "#F37626" },
+      { name: "Google Colab", icon: "SiGooglecolab", color: "#F9AB00" },
+      { name: "Vercel", icon: "SiVercel", color: "#ffffff" },
+      { name: "Netlify", icon: "SiNetlify", color: "#00C7B7" },
+    ],
+  },
+];
